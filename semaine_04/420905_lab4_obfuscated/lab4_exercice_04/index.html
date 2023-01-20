@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercice</title>
+    <script src="js/script.js"></script>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body onload="init()">
+    <div id="description">
+        <h1>Exercice 4 - Thérapie lumineuse</h1>
+        <p>Ci-dessous, il y a 4 ampoules qu'on peut allumer / éteindre en cliquant dessus.</p>
+        <ul>
+            <li>Pour changer leur état, on modifie la valeur de l'attribut "src" d'une image d'ampoule lorsque cliquée.</li>
+            <li>De plus, sous les ampoules, il est indiqué combien d'ampoules sont présentement allumées.</li>
+        </ul>
+    </div>
+
+    <div id="container">
+
+        <img src="images/lightOff.png" alt="Ampoule" id="ampoule1">
+        <img src="images/lightOff.png" alt="Ampoule" id="ampoule2">
+        <img src="images/lightOff.png" alt="Ampoule" id="ampoule3">
+        <img src="images/lightOff.png" alt="Ampoule" id="ampoule4">
+
+        <div style="width:100%;"></div>
+
+        <div class="statut">
+            <div>Nombre d'ampoules allumées</div>
+            <hr>
+            <div id="nombreAmpoules">0</div>
+        </div>
+
+    </div>
+    
+</body>
+</html>

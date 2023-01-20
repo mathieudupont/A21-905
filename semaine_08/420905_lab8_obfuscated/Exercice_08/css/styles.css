@@ -1,0 +1,50 @@
+@charset "UTF-8";
+
+body{
+    font-family:verdana;
+    background: #111111;
+}
+
+#description{
+    background: black;
+    width:800px;
+    margin:auto;
+    color: white;
+    border-radius:20px;
+    padding:20px;
+}
+
+#description p, #description ol{
+    font-size:1.2em;
+}
+
+.boite{
+    position:relative;
+    width:150px;
+    height:150px;
+}
+
+#container, #container2{
+    width:800px;
+    padding:20px;
+    margin:auto;
+    margin-top:20px;
+    display:flex;
+    justify-content: space-around;
+    background-color:black;
+    border-radius:20px;
+    flex-wrap:wrap;
+}
+
+.bouton{
+    margin:0;
+    width:100px;
+    color:white;
+    background: #222222;
+    border-radius:20px;
+    padding:15px;
+    margin-top:20px;
+    margin-bottom:20px;
+    font-size:1.5em;
+    text-align:center;
+}

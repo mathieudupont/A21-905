@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Spotify</title>
+    <script src="js/script.js"></script>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body onload="init()">
+    <div id="description">
+        <h1>Spotify</h1>
+        <ul>
+            <li>Afficher la liste des musiques</li>
+            <li>Afficher la musique courante puis rendre les boutons fonctionnels</li>
+            <li>Rendre la sélection d'une musique possible en cliquant dessus</li>
+        </ul>
+    </div>
+
+    <div id="container">
+
+        <div id="sectionTitre">
+            <!-- Les ids sont génériques pour les 5 premiers -->
+            <p id="titre0" class="titre" title="0">Chanson 1</p>
+            <p id="titre1" class="titre" title="1">Chanson 2</p>
+            <p id="titre2" class="titre" title="2">Chanson 3</p>
+            <p id="titre3" class="titre" title="3">Chanson 4</p>
+            <p id="titre4" class="titre" title="4">Chanson 5</p>
+
+            <!-- Les ids sont spécifiques pour les 5 derniers -->
+            <p id="Dommage" class="titre" title="5">Chanson 6</p>
+            <p id="Le Réveil" class="titre" title="6">Chanson 7</p>
+            <p id="bad guy" class="titre" title="7">Chanson 8</p>
+            <p id="Coton ouaté" class="titre" title="8">Chanson 9</p>
+            <p id="Imperfections" class="titre" title="9">Chanson 10</p>
+
+        </div>
+        <div id="sectionBoutons">
+            <img src="images/flecheGauche.png" alt="FlecheGauche" id="flecheGauche">
+            <p id="titreCourant">Chanson 1</p>
+            <img src="images/fleche.png" alt="FlecheDroite" id="flecheDroite">
+            <img src="images/aleatoire.png" alt="Aleatoire" id="aleatoire">
+        </div>
+
+
+    </div>
+    
+</body>
+</html>

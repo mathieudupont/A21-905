@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="js/script.js"></script>
+    <title>Laboratoire 9</title>
+</head>
+<body onload="init()">
+    <div id="description">
+        <h2>Exercice 7 - Machine à sous</h2>
+        <p>La machine à sous ci-dessous affiche 3 images. Il faut payer 1$ pour jouer. (On peut jouer en
+            utilisant les touches A, ←, ↓ et →) Si on aligne 3
+            images identiques, on gagne 5$ ! Place à l'addiction !
+        </p>
+    </div>
+    <div id="conteneur">
+        <div class="row" style="align-items:unset;">
+            <div class="jeu">
+                <img src="images/ici.png" alt="Indicateur" id="fleche">
+                <div class="row">
+                    <div class="colJeu">
+                        <img id="col1row1" src="" alt="Icône" class="petit">
+                        <img id="col1row2" src="" alt="Icône" class="moyen">
+                        <img id="col1row3" src="" alt="Icône" class="grand">
+                        <img id="col1row4" src="" alt="Icône" class="moyen">
+                        <img id="col1row5" src="" alt="Icône" class="petit">
+                    </div>
+                    <div class="colJeu">
+                        <img id="col2row1" src="" alt="Icône" class="petit">
+                        <img id="col2row2" src="" alt="Icône" class="moyen">
+                        <img id="col2row3" src="" alt="Icône" class="grand">
+                        <img id="col2row4" src="" alt="Icône" class="moyen">
+                        <img id="col2row5" src="" alt="Icône" class="petit">
+                    </div>
+                    <div class="colJeu">
+                        <img id="col3row1" src="" alt="Icône" class="petit">
+                        <img id="col3row2" src="" alt="Icône" class="moyen">
+                        <img id="col3row3" src="" alt="Icône" class="grand">
+                        <img id="col3row4" src="" alt="Icône" class="moyen">
+                        <img id="col3row5" src="" alt="Icône" class="petit">
+                    </div>
+                </div>
+                <div class="row stopRow">
+                    <div class="colStop">
+                        <div id="stop1">Stop<br>←</div>
+                    </div>
+                    <div class="colStop">
+                        <div id="stop2">Stop<br>↓</div>
+                    </div>
+                    <div class="colStop">
+                        <div id="stop3">Stop<br>→</div>
+                    </div>
+                </div>
+            </div>
+            <div class="panneau">
+                <div class="row">
+                    <div id="argent"><span id="portefeuille">10</span> $</div>
+                    <img src="images/argent.png" alt="Argent">
+                </div>
+                <div class="row">
+                    <div id="jouer">Appuyez sur A (-1$)</div>
+                </div>
+                <div class="row">
+                    <div id="message">Qu'attendez-vous pour jouer ?!</div>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+</body>
+</html>

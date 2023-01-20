@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercice</title>
+    <script src="js/script.js"></script>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body onload="init()">
+    <div id="description">
+        <h1>Exercice 1 - Images timides</h1>
+        <p>Derrière chaque carré il y a une image. Nous aimerions pouvoir interagir avec chaque carré pour dévoiler
+        l'image derrière.</p>
+        <ul>
+            <li>Le premier carré doit obtenir la classe <strong>.cacher</strong> pour disparaître quand on 
+                <strong>clique</strong> dessus.</li>
+            <li>Le deuxième carré doit obtenir la classe <strong>.cacher</strong> lorsqu'on le <strong>survole</strong>, et la perdre 
+                quand on ne le survole plus.</li>
+            <li>Pour le troisième carré, nous aimerions qu'il puisse être <strong>cliqué</strong> à l'infini pour 
+                alterner entre cacher l'image et dévoiler l'image. On veut donc ajouter / retirer la classe 
+                <strong>.bouger</strong> en alternance.
+            </li>
+        </ul>
+    </div>
+
+    <div id="container">
+
+        <!-- Carré 1 -->
+        <div class="boite">
+            <img src="images/boo.png" alt="Boo">
+            <div id="carre1"></div>
+        </div>
+    
+        <!-- Carré 2 -->
+        <div class="boite">
+            <img src="images/coinCoffer.png" alt="Coin Coffer">
+            <div id="carre2"></div>
+        </div>
+    
+        <!-- Carré 3 -->
+        <div class="boite">
+            <img src="images/shyguy.png" alt="Shyguy">
+            <div id="carre3"></div>
+        </div>
+
+    </div>
+    
+</body>
+</html>

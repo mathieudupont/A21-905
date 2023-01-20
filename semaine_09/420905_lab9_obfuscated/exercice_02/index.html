@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="js/script.js"></script>
+    <title>Laboratoire 9</title>
+</head>
+<body onload="init()">
+    <div id="description">
+        <h2>Exercice 2 - Stocker des données dans des images</h2><br>
+        <p>Pour cet exercice, vous devrez ajoutez des attributs data- aux images pour stocker des données.</p>
+        <ul>
+            <li>Appuyer sur les boutons rouges permettra d'ajouter des attributs data- dans le code HTML des images et
+                rendre leur fond doré.
+            </li>
+            <li>Le bouton vert permet d'afficher les attributs data- des images pour vérifier qu'elles ont bien été modifiées.</li>
+        </ul>
+    </div>
+
+    <div id="conteneur">
+        <div class="row">
+            <div id="boutonBombe" class="bouton">Ranger "BOOM" dans data-bruit</div>
+            <div id="boutonCadran" class="bouton">Ranger "10h37" dans data-temps</div>
+            <div id="boutonTelephone" class="bouton">Ranger "Rouge" dans data-couleur</div>
+            <div id="boutonToilette" class="bouton">Ranger "87" dans data-usage</div>
+        </div>
+        <div class="row espace">
+            <img id="bombe" src="images/bombe.png" alt="Bombe">
+            <img id="cadran" src="images/cadran.png" alt="Cadra">
+            <img id="telephone" src="images/telephone.png" alt="Téléphone">
+            <img id="toilette" src="images/toilette.png" alt="Toilette">
+        </div>
+        <div class="row">
+            <div class="info">Bruit de la bombe : <span id="infoBombe">???</span></div>
+            <div class="info">Heure du cadran : <span id="infoCadran">???</span></div>
+            <div class="info">Couleur du téléphone : <span id="infoTelephone">???</span></div>
+            <div class="info">Nombre d'usages de la toilette : <span id="infoToilette">???</span></div>
+        </div>
+        <div class="row">
+            <div id="boutonAfficher">Afficher les données stockées</div>
+        </div>
+    </div>
+
+</body>
+</html>

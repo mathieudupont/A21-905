@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mario</title>
+  <script src="js/script.js"></script>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body onload="init()">
+<div id="description">
+  <h1>Afficher les items de Mario!</h1>
+  <ul>
+    <li>Un clic sur le bouton "Ajouter un item" permet d'en ajouter un nouveau (limite de 5)</li>
+    <li>Un clic sur le bouton "Retirer le dernier élément" permet de supprimer le dernier élément du tableau</li>
+  </ul>
+</div>
+
+<div id="container">
+  <p id="texteNombreItems">Nombre d'items : 0</p>
+  <div id="sectionItems">
+    <img id="item1" alt="Champi">
+    <img id="item2" alt="Champi">
+    <img id="item3" alt="Champi">
+    <img id="item4" alt="Champi">
+    <img id="item5" alt="Champi">
+  </div>
+  <div id="sectionBoutons">
+    <button id="boutonAjouter">Ajouter un item</button>
+    <button id="boutonRetirer">Retirer le dernier élément</button>
+  </div>
+</div>
+</body>
+</html>

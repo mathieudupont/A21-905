@@ -1,0 +1,133 @@
+* {
+    box-sizing:border-box;
+}
+html {
+    height: 100%;
+}
+body, p {
+    margin:0;
+    padding:0;
+}
+body {
+    background: black url(../img/dune1.jpg) center top no-repeat;
+    background-size: contain;
+    height: 100%;
+}
+.wrapper {
+    zoom: 0.67;
+    position: relative;
+    width: 1234px;
+    margin: 0 auto;
+    overflow: hidden;
+    padding: 0 10px;
+}
+.titre {
+    font-family: monospace;
+    font-size: 45px;
+    color: white;
+    line-height: 90px;
+    text-align: center;
+    width: 100%;
+    font-weight: bold;
+}
+.zones {
+    overflow: hidden;
+    padding: 20px 24px;
+    width: 1214px;
+    border: 3px solid black;
+    background-color: black;
+    margin-bottom: 24px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px black;
+    -moz-box-shadow: 5px 5px 5px black;
+    -webkit-box-shadow: 5px 5px 5px black;
+    opacity: 0.7;
+}
+td {
+   color: white;
+    opacity: 1;
+}
+.zone {
+    float: left;
+    margin: 10px 15px;
+    width: 130px;
+    height: 130px;
+    border: 1px solid black;
+    line-height:130px;
+    text-align:center;
+    font-family: arial;
+    font-size: 30px;
+    font-weight:bold;
+    color: black;
+    background-color: white;
+    border-radius:8px;
+    box-shadow: 4px 4px 4px rgba(75, 75, 75, 0.75);
+    -moz-box-shadow: 4px 4px 4px rgba(75, 75, 75, 0.75);
+    -webkit-box-shadow: 4px 4px 4px rgba(75, 75, 75, 0.75);
+}
+.index {
+    float: left;
+    margin: 10px 15px;
+    width: 130px;
+    /*height: 130px;*/
+    border: 1px solid black;
+    /*line-height:130px;*/
+    text-align:center;
+    font-family: arial;
+    font-size: 30px;
+    font-weight:bold;
+    color: red;
+    background-color:white;
+    border-radius:8px;
+    box-shadow: 4px 4px 4px rgba(75, 75, 75, 0.75);
+    -moz-box-shadow: 4px 4px 4px rgba(75, 75, 75, 0.75);
+    -webkit-box-shadow: 4px 4px 4px rgba(75, 75, 75, 0.75);
+}
+.boutonsGauche {
+    float: left;
+    width: 617px;
+    padding: 10px;
+    margin-left: -10px;
+}
+.boutonsDroite {
+    float: left;
+    width: 617px;
+    padding: 10px;
+    margin-right: -10px;
+}
+button {
+    border-radius: 3px;
+    color: white;
+    border: 1px solid #004276;
+    background: black;
+    opacity: 0.7;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 2em;
+    font-weight: bold;
+    text-decoration: none;
+    padding: .4em 1em;
+    display: inline-block;
+    position: relative;
+    line-height: normal;
+    margin: 7px 0;
+    cursor: pointer;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    overflow: visible;
+    text-align: left;
+    width: 595px;
+    height: 70px;
+    box-shadow: 2px 2px 2px rgba(0, 66, 118, 0.75);
+    -moz-box-shadow: 2px 2px 2px rgba(0, 66, 118, 0.75);
+    -webkit-box-shadow: 2px 2px 2px rgba(0, 66, 118, 0.75);
+}
+button:hover {
+    color: #cc0000;
+    border-color: #cc0000;
+    box-shadow: 2px 2px 2px rgba(204, 0, 0, 0.75);
+    -moz-box-shadow: 2px 2px 2px rgba(204, 0, 0, 0.75);
+    -webkit-box-shadow: 2px 2px 2px rgba(204, 0, 0, 0.75);
+}

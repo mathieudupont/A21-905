@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercice</title>
+    <script src="js/script.js"></script>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body onload="init()">
+    <div id="description">
+        <h1>Exercice 3 - Beep boop ! Plein de boutons</h1>
+        <p>
+            L'image centrale ci-dessous est accompagnée de plusieurs boutons avec des effets variés que vous devrez coder.
+        </p>
+    </div>
+
+    <div id="container">
+
+        <!-- Rangée 1 : bouton1, bouton2 et bouton3 -->
+        <div class="rangee">
+            <div class="bouton"><div class="index">1</div>
+
+                <!-- BOUTON #1 : Met la bordure gauche de l'image en rouge -->
+                <div id="bouton1"><p>Style à gauche</p></div>
+
+            </div>
+            <div class="bouton"><div class="index">2</div>
+
+                <!-- BOUTON #2 : Affiche le style actuel de l'image -->
+                <div id="bouton2"><p>Valeur style</p></div>
+
+                <div id="texteStyle"></div>
+            </div>
+            <div class="bouton"><div class="index">3</div>
+
+                <!-- BOUTON #3 : Met la bordure droite de l'image en rouge -->
+                <div id="bouton3"><p>Style à droite</p></div>
+
+            </div>
+        </div>
+
+        <!-- Rangée 2 : bouton4, image et bouton5 -->
+        <div class="rangee">
+            <div class="bouton"><div class="index">4</div>
+
+                <!-- BOUTON #4 : Change l'image -->
+                <div id="bouton4"><p>Image 1</p></div>
+
+            </div>
+            <div class="bouton">
+                <img src="images/boutons.png" alt="Boutons" id="image">
+            </div>
+            <div class="bouton"><div class="index">5</div>
+
+                <!-- BOUTON #5 : Change l'image -->
+                <div id="bouton5"><p>Image 2</p></div>
+
+            </div>
+        </div>
+
+        <!-- Rangée 3 : bouton6, bouton7 et bouton8 -->
+        <div class="rangee">
+            <div class="bouton"><div class="index">6</div>
+
+                <!-- BOUTON #6 : Met la classe "haut" à l'image -->
+                <div id="bouton6"><p>Classe "haut"</p></div>
+
+            </div>
+            <div class="bouton"><div class="index">7</div>
+
+                <!-- BOUTON #7 : Affiche la classe actuelle de l'image -->
+                <div id="bouton7"><p>Valeur class</p></div>
+                
+                <div id="texteClasse"></div>
+            </div>
+            <div class="bouton"><div class="index">8</div>
+
+                <!-- BOUTON #8 : Met la classe "bas" à l'image -->
+                <div id="bouton8"><p>Classe "bas"</p></div>
+
+            </div>
+        </div>
+
+    </div>
+</body>
+</html>

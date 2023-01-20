@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="js/script.js"></script>
+    <title>Laboratoire 9</title>
+</head>
+<body onload="init()">
+    <div id="description">
+        <h2>Exercice 1 - Interrogation d'attributs data-</h2>
+        <p>Toutes les images dans cette page ont des attributs data- avec des données stockées. Nous allons interroger
+            ces attributs data- et afficher l'information qu'elles contiennent dans la page en cliquant sur des boutons.
+        </p>
+    </div>
+
+    <div id="conteneur">
+        <div class="row">
+            <img id="bebe" src="images/bebe.png" alt="Bébé" data-age="4 mois">
+            <div id="boutonBebe" class="bouton">Quel âge as-tu ?</div>
+            <div id="ageBebe" class="info">???</div>
+        </div>
+        <div class="row">
+            <img id="lettre" src="images/lettre.png" alt="Lettre" data-destinataire="André Robidoux">
+            <div id="boutonLettre" class="bouton">Qui est le destinataire ?</div>
+            <div id="destinataireLettre" class="info">???</div>
+        </div>
+        <div class="row">
+            <img id="livre" src="images/livre.png" alt="Livre" data-nbPages="265">
+            <div id="boutonLivre" class="bouton">Combien de pages as-tu ?</div>
+            <div id="nbPagesLivre" class="info">???</div>
+        </div>
+        <div class="row">
+            <img id="vase" src="images/vase.png" alt="Vase" data-prix="40$">
+            <div id="boutonVase" class="bouton">Quel est ton prix ?</div>
+            <div id="prixVase" class="info">???</div>
+        </div>
+    </div>
+</body>
+</html>

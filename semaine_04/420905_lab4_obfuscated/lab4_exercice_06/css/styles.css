@@ -1,0 +1,49 @@
+@charset "UTF-8";
+
+body{
+    font-family:verdana;
+}
+
+#description{
+    background:linear-gradient(to bottom, #28264e, #361d51, #550d57);
+    width:800px;
+    margin:auto;
+    color:rgb(237, 245, 243);
+    border-radius:20px;
+    padding:20px;
+}
+
+#description p, #description ul{
+    font-size:1.2em;
+}
+
+.boite{
+    position:relative;
+    width:150px;
+    height:150px;
+}
+
+#container{
+    width:800px;
+    margin:auto;
+    margin-top:20px;
+    gap:20px;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    position:relative;
+}
+
+img{
+    width:150px;
+    transition:0.5s;
+    opacity:0;
+}
+
+.fond{
+    width:150px;
+    height:150px;
+    background-color:crimson;
+    position:absolute;
+    z-index:-1;
+}

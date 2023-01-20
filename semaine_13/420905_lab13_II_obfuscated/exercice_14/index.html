@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="js/script.js"></script>
+    <title>Laboratoire</title>
+</head>
+<body onload="init()">
+    <div id="description">
+        <h2>Exercice 14 - Où sont cachées les données ?</h2>
+        <p>
+            Lorsqu'on clique sur un personnage, cela affiche ses informations
+            en-dessous. (Nom et couleur préférée) Mais... où sont les données à afficher ?
+        </p>
+    </div>
+
+    <div id="conteneur">
+        <div class="row">
+            <img src="images/mario.png" alt="Perso" id="mario" data-nom="Mario" data-couleur="rouge">
+            <img src="images/luigi.png" alt="Perso" id="luigi" data-nom="Luigi" data-couleur="vert">
+            <img src="images/peach.png" alt="Perso" id="peach" data-nom="Peach" data-couleur="rose">
+            <img src="images/yoshi.png" alt="Perso" id="yoshi" data-nom="Yoshi" data-couleur="bleu">
+        </div>
+        <h4>
+            Nom : <span id="nom">???</span>
+        </h4>
+        <h4>
+            Couleur préférée : <span id="couleur">???</span>
+        </h4>
+
+    </div>
+</body>
+</html>

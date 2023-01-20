@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="js/script.js"></script>
+    <script src="js/PompeAEssence.js"></script>
+    <title>Laboratoire</title>
+</head>
+<body onload="init()">
+    <div id="description">
+        <h2>Exercice 3 - L'essence coûte cher</h2>
+        <p>On peut sélectionner une quantité d'essence puis l'acheter. Par contre,
+           la quantité d'essence dans le réservoir de la pompe est limitée.
+        </p>
+    </div>
+
+    <div id="conteneur">
+        <div class="row">
+            <img src="images/pompe.png" alt="Pompe" id="pompe">
+            <div>
+                <div class="info">
+                    Prix :<br><br>
+                    <span id="prix">0</span> $<br><br>
+                </div>
+                <div class="info">
+                    Quantité souhaitée :<br><br>
+                    <img src="images/down.png" id="reduire" alt="Flèche">
+                    <span id="quantiteLitres">0</span> litres
+                    <img src="images/up.png" id="augmenter" alt="Flèche"><br><br>
+                </div>
+                <div id="confirmer">
+                    Confirmer
+                </div>
+                <div class="info">
+                    Quantité restante :<br><br>
+                    <span id="litresRestants">120</span> litre(s)<br><br>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

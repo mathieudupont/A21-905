@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="js/script.js"></script>
+    <script src="js/Grenouille.js"></script>
+    <title>Laboratoire</title>
+</head>
+<body onload="init()">
+    <div id="description">
+        <h2>Exercice 2 - Tamagotchi grenouille</h2>
+        <p>Votre grenouille s'assoiffe, s'affame et s'endort continuellement.
+            Nourissez-la, abreuvez-la et faites-la dormir au besoin.
+        </p>
+    </div>
+
+    <div id="conteneur">
+        <img id="grenouille" src="images/grenouille.png" alt="Grenouille">
+        <h3>État de la grenouille :</h3>
+        <div class="row">
+            <div class="besoin">
+                Satiété :
+                <div id="satiete"></div>
+            </div>
+            <div class="besoin">
+                Hydratation :
+                <div id="hydratation"></div>
+            </div>
+            <div class="besoin">
+                Énergie :
+                <div id="energie"></div>
+            </div>
+        </div>
+        <h3>Actions disponibles :</h3>
+        <div class="row">
+            <div id="nourrir">
+                <img src="images/mouche.png" class="action" alt="action"> Nourrir
+            </div>
+            <div id="abreuver">
+                <img src="images/eau.png" class="action" alt="action"> Abreuver
+            </div>
+            <div id="dormir">
+                <img src="images/lit.png" class="action" alt="action"> Dormir
+            </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="css/style.css"/>
+    <script type="text/javascript" src="js/script.js"></script>
+</head>
+
+<body onload="init()">
+
+<div class="wrapper">
+    <p class="titre">Notes</p>
+    <div class="zones">
+        <table id="tableau">
+            <tr style="opacity: 0;"><td class="index">0</td></tr>
+            <tr style="opacity: 0;"><td class="zone">0</td></tr>
+        </table>
+    </div>
+    <div class="boutonsDroite" style="opacity: 0; width: 308px;">
+        <button></button>
+    </div>
+    <div class="boutonsGauche">
+        <button id="bouton1" style="color: white; background: black; opacity: 0.7">Effectuer les calculs</button>
+    </div>
+    <div class="boutonsGauche">
+        <button>Nombre de cours réussis :</button>
+        <button>Cours réussis :</button>
+        <button>Nombre de cours échoués :</button>
+        <button>Cours échoués :</button>
+    </div>
+    <div class="boutonsDroite">
+        <button id="resultat1"></button>
+        <button id="resultat2" style="font-size: 1.5em;"></button>
+        <button id="resultat3"></button>
+        <button id="resultat4" style="font-size: 1.5em;"></button>
+    </div>
+</div>
+
+</body>
+</html>

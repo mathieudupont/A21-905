@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="js/script.js"></script>
+    <title>Laboratoire 9</title>
+</head>
+<body onload="init()">
+    <div id="description">
+        <h2>Exercice 4 - Thermostat lent</h2>
+        <p>Dans cette page, on peut modifier la température de la pièce. Par contre, la température ne change pas
+            immédiatement car il faut un peu de temps au chauffage ou à la climatisation pour faire effet.<br>
+            De plus, on veut faire disparaître les boutons pendant que la température de la pièce s'ajuste pour ne
+            pas pouvoir briser le système en mitraillant les boutons.
+        </p>
+    </div>
+    <div id="conteneur">
+        <div class="row">
+            <div class="col">
+                <div class="temp">
+                    <img id="chaud" class="clic" src="images/chaud.png" alt="Chaud">
+                </div>
+                
+                <img src="images/mercure.png" alt="Mercure">
+                <div class="temp">
+                    <img id="froid" class="clic" src="images/froid.png" alt="Froid">
+                </div>           
+            </div>
+            <div class="col affichage">
+                <div class="grand"><span id="temperature">20</span>°c</div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

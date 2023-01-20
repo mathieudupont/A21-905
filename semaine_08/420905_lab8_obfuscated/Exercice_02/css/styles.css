@@ -1,0 +1,39 @@
+@charset "UTF-8";
+
+body{
+    font-family:verdana;
+}
+
+#description{
+    background:linear-gradient(to bottom, #28264e, #361d51, #550d57);
+    width:800px;
+    margin:auto;
+    color:rgb(237, 245, 243);
+    border-radius:20px;
+    padding:20px;
+}
+
+#description p, #description ul{
+    font-size:1.2em;
+}
+
+#container div{
+    width:150px;
+    height:150px;
+}
+
+#container{
+    width:800px;
+    margin:auto;
+    margin-top:20px;
+    display:flex;
+    justify-content: space-around;
+    align-items:center;
+}
+
+#compteurId[id="compteurId"]{
+    text-align:center;
+    padding-top:50px;
+    height:100px;
+    font-size:50px;
+}

@@ -1,0 +1,92 @@
+body{
+    font-family:verdana;
+}
+
+#description{
+    background:linear-gradient(to bottom, #242B7B, #48247B, #74247B);
+    width:800px;
+    margin:auto;
+    color:rgb(237, 245, 243);
+    border-radius:20px;
+    padding:20px;
+    font-size:1.2em;
+}
+
+#description h2, #description p{
+    margin:0px;
+}
+
+#conteneur{
+    margin:auto;
+    margin-top:20px;
+    width:800px;
+    padding:20px;
+    background-color:#f0f1ff;
+    border-radius:20px;
+}
+
+.row{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    margin:auto;
+    gap:10px;
+    align-items:center;
+    margin:5px 0px 5px 0px;
+}
+
+.bouton, .row>img, .info, #boutonAfficher{
+    border-radius:15px;
+    border:black solid 3px;
+    padding:5px;
+}
+
+.row>img{
+    background-color:white;
+}
+
+.espace{
+    justify-content: space-around;
+}
+
+.bouton, .info{
+    width:170px;   
+    text-align:center;
+}
+
+.bouton{
+    background-color:crimson;
+    color:white;
+    font-weight:bold;
+}
+
+.bouton:active{
+    background-color:white;
+    color:crimson;
+}
+
+.info{
+    background-color:white;
+}
+
+#boutonAfficher{
+    width:250px;
+    font-weight:bold;
+    text-align:center;
+    background-color:limegreen;
+    color:white;
+}
+
+#boutonAfficher:active{
+    background-color:white;
+    color:limegreen;
+}
+
+[id^="info"]{
+    font-weight:bold;
+    color:goldenrod;
+}
+
+[id^="bouton"]{
+    cursor:grab;
+}

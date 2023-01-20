@@ -1,0 +1,112 @@
+@charset "UTF-8";
+
+body{
+    font-family:verdana;
+}
+
+#description{
+    background:linear-gradient(to bottom, #28264e, #361d51, #550d57);
+    width:800px;
+    margin:auto;
+    color:rgb(237, 245, 243);
+    border-radius:20px;
+    padding:20px;
+}
+
+#description p, #description ul{
+    font-size:1.2em;
+}
+
+#container{
+    width:800px;
+    margin:auto;
+}
+
+.rangee{
+    margin-top:20px;
+    display:flex;
+    gap:20px;
+    display:flex;
+    justify-content:center;
+    flex-wrap:wrap;
+}
+
+.bouton{
+    width:200px;
+    height:200px;
+    background:linear-gradient(to bottom, #28264e, #361d51, #550d57);
+    border-radius:20px;
+    display:flex;
+    align-items: center;
+    flex-wrap:wrap;
+    position:relative;
+}
+
+#image{
+    width:180px;
+    height:180px;
+    border-style: solid;
+    border-width: 10px;
+}
+
+.index{
+    position:absolute;
+    left:5px;
+    top:5px;
+    background-color:black;
+    color:white;
+    border-radius:5px;
+    width:30px;
+    font-size:1.5em;
+    font-weight:bold;
+    text-align:center;
+    opacity:0.7;
+}
+
+[id^="bouton"], #texteStyle, #texteClasse{
+    width:180px;
+    border-radius:20px;
+    border:white solid 5px;
+    margin:auto;
+    height:80px;
+    text-align:center;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+}
+
+[id^="bouton"] p {
+    margin:0;
+    font-size: 25px;
+    color:white;
+    font-weight: bold;
+}
+
+#bouton4, #bouton5{
+    background-color:crimson;
+}
+
+#bouton1, #bouton3{
+    background-color:cornflowerblue;
+}
+
+#bouton6, #bouton8{
+    background-color:limegreen;
+}
+
+#bouton2, #bouton7{
+    background-color:violet;
+}
+
+#texteStyle, #texteClasse{
+    background-color:white;
+}
+
+.haut{
+    border-top-color:limegreen;
+}
+
+.bas{
+    border-bottom-color:limegreen;
+}
+

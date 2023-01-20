@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="js/script.js"></script>
+    <title>Laboratoire 9</title>
+</head>
+<body onload="init()">
+    <div id="description">
+        <h2>Exercice 3 - Ma petite pharmacie</h2>
+        <p>Ci-dessous, on peut cliquer sur un article pour afficher son prix, sa quantité et la valeur totale en
+            inventaire. Par exemple, si un article vaut 4$ et que sa quantité est 3, la valeur totale en inventaire est 12$.
+        </p>
+    </div>
+    <div id="conteneur">
+        <div class="row">
+            <img id="diachylon" src="images/diachylon.png" alt="Diachylon" data-prix="4.99" data-quantite="20">
+            <img id="maquillage" src="images/maquillage.png" alt="Maquillage" data-prix="19.99" data-quantite="10">
+            <img id="papierToilette" src="images/papierToilette.png" alt="Papier Toilette" data-prix="9.99" data-quantite="30">
+            <img id="pillule" src="images/pillule.png" alt="Pillule" data-prix="14.99" data-quantite="100">
+            <img id="seringue" src="images/seringue.png" alt="Seringue" data-prix="7.99" data-quantite="15">
+        </div>
+        <div class="row">
+            <div class="info">Prix : <span id="prix">???</span> $</div>
+        </div>
+        <div class="row">
+            <div class="info">Quantité : <span id="quantite">???</span> unités</div>
+        </div>
+        <div class="row">
+            <div class="info">Valeur totale : <span id="valeurTotale">???</span> $</div>
+        </div>
+    </div>
+</body>
+</html>
